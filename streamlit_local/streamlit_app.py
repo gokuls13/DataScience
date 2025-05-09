@@ -4,7 +4,7 @@ import joblib
 
 #st.write("Code Change!!")
 #Load the model 
-model = joblib.load("pipe.pkl")
+model = joblib.load("streamlit_local/pipe.pkl")
 
 #Function to make predictions 
 def predict(data):
